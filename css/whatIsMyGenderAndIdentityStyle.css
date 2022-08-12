@@ -1,0 +1,335 @@
+﻿@font-face {
+    font-family: 'gadi-almog-regular-aaa';
+    src: url(../fonts/gadi-almog-regular-aaa.otf) format('opentype');
+}
+
+.gadiAlmog{
+    font-family:gadi-almog-regular-aaa;
+}
+
+
+/*SexTerms*/
+#articalSex div section {
+    position: relative;
+    top: -390px;
+    right: 400px;
+    width: 510px;
+}
+
+/*Sex*/
+.sectionSex {
+    position: relative;
+    top: 30px;
+    width: 987px;
+    right: 0px;
+}
+
+#imageSex {
+    position: relative;
+    top: 100px;
+    right: 0px;
+}
+
+/*SexSymbols*/
+
+#maleSymbol{
+    position:relative;
+    top:70px;
+    right:-300px;
+    width:250px;
+    
+}
+
+#maleSymbol p {
+    text-align: center;
+}
+
+#maleSymbol img {
+    position: relative;
+    top: -30px;
+    right: 75px;
+}
+
+.maleSymbolRoot {
+    position: relative;
+    top: -10px;
+    right: 0px;
+}
+
+#femaleSymbol {
+    position: relative;
+    top: -190px;
+    right: 100px;
+    width: 250px;
+}
+
+#femaleSymbol p {
+    position:relative;
+    text-align: center;
+}
+
+#femaleSymbol img {
+    position: relative;
+    top: 3px;
+    right: 90px;
+}
+
+#interSexSymbol {
+    position: relative;
+    top: -440px;
+    right:500px;
+    width: 250px;
+}
+
+#interSexSymbol p {
+    position: relative;
+    text-align: center;
+    width:300px;
+}
+
+#interSexSymbol img {
+    position: relative;
+    top: -10px;
+    right: 90px;
+}
+
+.interSexSymbolRoot {
+    position: relative;
+    top: -0px;
+    right: 0px;
+}
+
+/*gender*/
+
+.sectionGender {
+    position: relative;
+    top: -800px;
+    right: 0px;
+}
+
+/*frame*/
+#frameOne {
+    position: relative;
+    top: -600px;
+    right: -150px;
+    z-index: -1;
+}
+
+#frameTwo {
+    position: relative;
+    top: -1185px;
+    right: 310px;
+    z-index: -1;
+}
+
+#frameThree {
+    position: relative;
+    top: -2085px;
+    right: 955px;
+    z-index: -1;
+}
+
+/*Term*/
+
+.transgenderTerm {
+    position: absolute;
+    top: 2090px;
+    right: 10px;
+    width: 340px;
+    text-align: center;
+}
+
+.sisganderTerm {
+    position: absolute;
+    position: absolute;
+    top: 2090px;
+    right: 480px;
+    width: 300px;
+    text-align: center;
+}
+
+.genderqueerTerm {
+    position: absolute;
+    position: absolute;
+    position: absolute;
+    top: 2090px;
+    right: 980px;
+    width: 300px;
+    text-align: center;
+}
+
+/*H*/
+.transH3 {
+    position: absolute;
+    top: 1900px;
+    right: 110px;
+}
+
+.sisH3 {
+    position: absolute;
+    top: 1900px;
+    right: 580px;
+}
+
+.queerH3 {
+    position: absolute;
+    top: 1900px;
+    right: 1060px;
+}
+
+/*p*/
+
+#transgenderP1 {
+    position: absolute;
+    top: 2500px;
+    right: 0px;
+    width: 300px;
+}
+
+#sisganderP2 {
+    position: absolute;
+    top: 2500px;
+    right: 460px;
+    width: 300px;
+}
+
+#genderqueerP1 {
+    position: absolute;
+    top: 2500px;
+    right: 950px;
+    width:300px;
+}
+
+
+/*flags*/
+#transgenderFlag {
+    position: relative;
+    top: -620px;
+    right: 120px;
+}
+
+#sisganderFlag {
+    position: relative;
+    top: -725px;
+    right: 580px;
+}
+
+#genderqueerFlag {
+    position: relative;
+    top: -830px;
+    right: 1060px;
+}
+
+/*img*/
+
+#transPicOne {
+    position: absolute;
+    top: 2250px;
+    right: -60px;
+    width:200px;
+    height:270px;
+}
+
+#sisPicTwo {
+    position: absolute;
+    top: 2250px;
+    right: 430px;
+    width: 150px;
+    height: 270px;
+}
+
+#queerPicOne {
+    position: absolute;
+    top: 2250px;
+    right: 900px;
+    width: 180px;
+    height: 270px;
+}
+
+/*button*/
+.button {
+    position: absolute;
+    top: 1650px;
+    right: 1050px;
+}
+
+.divButton a {
+    position: absolute;
+    top: 1680px;
+    right: 1110px;
+    z-index:1;
+}
+
+/*whatIsMyGenderAndIdentityFooter*/
+
+#whatIsMyGenderAndIdentityFooter {
+    position: relative;
+    top: 3500px;
+    width: 1280px;
+    max-width: 100%;
+    height: 349px;
+    padding-bottom: 0px;
+}
+
+    #whatIsMyGenderAndIdentityFooter hr {
+        position: relative;
+        top: -2px;
+        border: 0px;
+        border-bottom: 2px solid black;
+    }
+
+    /*footer table*/
+
+    #whatIsMyGenderAndIdentityFooter table {
+        position: relative;
+        top: -25px;
+        right: 370px;
+        width: 550px;
+        text-align: center;
+    }
+
+.thOne {
+    position: relative;
+    right: -170px;
+}
+
+.tdOne {
+    position: relative;
+    right: -15px;
+}
+
+.tdTwo {
+    position: relative;
+    right: 170px;
+}
+
+#whatIsMyGenderAndIdentityFooter table a {
+    text-decoration: none;
+    color: black;
+}
+
+footer table a:hover {
+    text-decoration: underline;
+}
+
+#whatIsMyGenderAndIdentityFooter table th a {
+    font-weight: normal;
+}
+
+/*footer p*/
+
+#whatIsMyGenderAndIdentityFooter div {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+/*footer logo*/
+
+.logoFooter {
+    position: relative;
+    top: -15px;
+    width: 200px;
+    height: 98px;
+}

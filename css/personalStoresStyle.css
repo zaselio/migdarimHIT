@@ -1,0 +1,172 @@
+﻿@font-face {
+    font-family: 'gadi-almog-regular-aaa';
+    src: url(../fonts/gadi-almog-regular-aaa.otf) format('opentype');
+}
+
+.gadiAlmog {
+    font-family: gadi-almog-regular-aaa;
+}
+
+/*yoav*/
+
+.yoav {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 50px;
+    right: -250px;
+}
+
+#yoavStory {
+    position: absolute;
+    top: 610px;
+    right: 170px;
+}
+
+.ButtonYoav {
+    position: absolute;
+    top: 850px;
+    right: 1050px;
+}
+
+.divButtonYoav a {
+    position: absolute;
+    top: 880px;
+    width:150px;
+    right: 1090px;
+    z-index: 1;
+}
+
+/*oded*/
+
+.oded {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 50px;
+    right: -250px;
+}
+
+#odedStory {
+    position: absolute;
+    top: 1010px;
+    right: 170px;
+}
+
+.ButtonOded {
+    position: absolute;
+    top: 1340px;
+    right: 1050px;
+}
+
+.divButtonOded a {
+    position: absolute;
+    top: 1370px;
+    width: 150px;
+    right: 1090px;
+    z-index: 1;
+}
+
+/*tami*/
+
+.tami {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 50px;
+    right: -250px;
+}
+
+#tamiStory {
+    position: absolute;
+    top: 1510px;
+    right: 170px;
+}
+
+.ButtonTami {
+    position: absolute;
+    top: 1870px;
+    right: 1050px;
+}
+
+.divButtonTami a {
+    position: absolute;
+    top: 1900px;
+    width: 150px;
+    right: 1090px;
+    z-index: 1;
+}
+
+/*personalStoriesFooter*/
+
+#personalStoriesFooter {
+    position: relative;
+    top: 2500px;
+    width: 1280px;
+    max-width: 100%;
+    height: 349px;
+    padding-bottom: 0px;
+}
+
+#personalStoriesFooter hr {
+    position: relative;
+    top: -2px;
+    border: 0px;
+    border-bottom: 2px solid black;
+}
+
+/*footer table*/
+
+#personalStoriesFooter table {
+    position: relative;
+    top: -25px;
+    right: 370px;
+    width: 550px;
+    text-align: center;
+}
+
+.thOne {
+    position: relative;
+    right: -170px;
+}
+
+.tdOne {
+    position: relative;
+    right: -15px;
+}
+
+.tdTwo {
+    position: relative;
+    right: 170px;
+}
+
+#personalStoriesFooter table a {
+    text-decoration: none;
+    color: black;
+}
+
+footer table a:hover {
+    text-decoration: underline;
+}
+
+#personalStoriesFooter table th a {
+    font-weight: normal;
+}
+
+/*footer p*/
+
+#personalStoriesFooter div {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+/*footer logo*/
+
+.logoFooter {
+    position: relative;
+    top: -15px;
+    width: 200px;
+    height: 98px;
+}

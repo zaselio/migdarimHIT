@@ -1,0 +1,332 @@
+﻿body {
+}
+
+.h1HomePage {
+    position:absolute;
+    right:380px;
+    /*padding-right:385px;*/
+    /*width:100%;*/
+    font-size:50px;
+}
+
+.gradient {
+    position:absolute;
+    top:0px;
+    right:-60px;
+    padding-right: 615px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#b09ac7, #ab3092,#a0c1d0,#e64298);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index:-1;
+}
+
+header {
+    position: relative;
+    right: 0px;
+    max-width: 100%
+}
+
+.h2HomePage {
+    position:relative;
+    top:100px;
+    padding-right: 420px;
+    width: 40%;
+    text-align:center;
+    font-size: 35px;
+}
+
+/*WhatIsMyGenderAndIdentity*/
+
+.divWhatIsMyGenderAndIdentity {
+    width: 20%;
+    text-align: center;
+}
+
+.whatIsMyGenderAndIdentity {
+    position: absolute;
+    top: 300px;
+    right: 330px;
+    width:300px;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.whatIsMyGenderAndIdentityReveal {
+    display:none;
+    position: absolute;
+    width: 300px;
+    top: 360px;
+    right: 330px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.whatIsMyGenderAndIdentityLink {
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 560px;
+    right: 330px;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+}
+
+.roundOneReveal {
+    position: absolute;
+    width: 370px;
+    height: 365px;
+    top: 260px;
+    right: 300px;
+}
+
+.roundOne {
+    position: absolute;
+    width: 370px;
+    height: 365px;
+    top: 255px;
+    right: 300px;
+}
+
+.divWhatIsMyGenderAndIdentity:hover .roundOne {
+    display: none;
+}
+
+.divWhatIsMyGenderAndIdentity:hover .whatIsMyGenderAndIdentity {
+    display: none;
+}
+
+.divWhatIsMyGenderAndIdentity:hover .whatIsMyGenderAndIdentityReveal {
+    display: inherit;
+}
+
+.divWhatIsMyGenderAndIdentity:hover .whatIsMyGenderAndIdentityLink {
+    display: inherit;
+}
+
+/*WhatIsMyGenderAndIdentity*/
+
+.divWhatIsMySexualBehavior {
+    width: 20%;
+    text-align: center;
+}
+
+.whatIsMySexualBehavior {
+    position: absolute;
+    top: 600px;
+    right: 510px;
+    width:350px;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.whatIsMySexualBehaviorReveal {
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 640px;
+    right: 540px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.whatIsMySexualBehaviorLink {
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 840px;
+    right: 540px;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+}
+
+.roundTwoReveal {
+    position: absolute;
+    width: 370px;
+    height: 365px;
+    top: 530px;
+    right: 500px;
+}
+
+.roundTwo {
+    position: absolute;
+    width: 370px;
+    height: 365px;
+    top: 530px;
+    right: 500px;
+}
+
+.divWhatIsMySexualBehavior:hover .roundTwo {
+    display: none;
+}
+
+.divWhatIsMySexualBehavior:hover .whatIsMySexualBehavior {
+    display: none;
+}
+
+.divWhatIsMySexualBehavior:hover .whatIsMySexualBehaviorReveal {
+    display: inline-flex;
+}
+
+.divWhatIsMySexualBehavior:hover .whatIsMySexualBehaviorLink {
+    display: inherit;
+}
+
+/*whatIsMyAttractionType*/
+
+.divWhatIsMyAttractionType {
+    width: 20%;
+    text-align: center;
+}
+
+.whatIsMyAttractionType {
+    position: absolute;
+    top: 320px;
+    right: 740px;
+    width: 290px;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.whatIsMyAttractionTypeReveal {
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 360px;
+    right: 740px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.whatIsMyAttractionTypeLink {
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 560px;
+    right: 740px;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+}
+
+.roundThreeReveal {
+    position: absolute;
+    width: 370px;
+    height: 365px;
+    top: 260px;
+    right: 700px;
+}
+
+.roundThree {
+    position: absolute;
+    width: 370px;
+    height: 365px;
+    top: 260px;
+    right: 700px;
+}
+
+.divWhatIsMyAttractionType:hover .roundThree {
+    display: none;
+}
+
+.divWhatIsMyAttractionType:hover .whatIsMyAttractionType {
+    display: none;
+}
+
+.divWhatIsMyAttractionType:hover .whatIsMyAttractionTypeReveal {
+    display: inline-flex;
+}
+
+.divWhatIsMyAttractionType:hover .whatIsMyAttractionTypeLink {
+    display: inherit;
+}
+
+hr {
+    position: relative;
+    top: 750px;
+    border: 0px;
+    border-bottom: 1px solid #707070;
+}
+
+/*down-btn*/
+
+.down-btn-img {
+    position: relative;
+    top: 700px;
+    right: 950px;
+}
+.down-btn {
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    left: 950px;
+    bottom: -150px;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-100px);
+    }
+}
+
+/*soMuchFunToShare*/
+.indexH3One {
+    position: absolute;
+    top: 980px;
+    right: 580px;
+}
+
+.tamiYoavOded {
+    position: absolute;
+    top: -10px;
+    right: -60px;
+}
+
+.tami {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 1080px;
+    right: 400px;
+}
+
+.yoav {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 1080px;
+    right: 610px;
+    z-index:-1;
+}
+
+.oded {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 1080px;
+    right: 810px;
+    z-index: -2;
+}
+
+.indexH3Two {
+    position: absolute;
+    top: 1350px;
+    right: 580px;
+}
+
+.indexH3Three {
+    position: absolute;
+    top: 1400px;
+    right: 430px;
+}

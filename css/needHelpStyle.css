@@ -1,0 +1,18 @@
+﻿article h3, article p {
+    position: relative;
+    top: -200px;
+    right: 250px;
+    width: 303px;
+}
+
+.imgBatKol {
+    position: relative;
+    top: -50px;
+    right: 0px;
+}
+
+#maavarim {
+    position: relative;
+    top: -103px;
+    right: 0px;
+}

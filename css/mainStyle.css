@@ -1,0 +1,88 @@
+﻿/*1) static: this is the default value.
+2) sticky: the element is positioned based on the user's scroll position.
+3) fixed: the element is positioned related to the browser window.
+4) relative: the element is positioned relative to its normal position.
+5) absolute: the element is positioned absolutely to its first positioned parent*/
+
+html {
+    top: 0px;
+    padding-top: 0;
+    margin: auto;
+    position: relative;
+    width: 1280px;
+    height: 2350px;
+    min-width: 0%;
+    min-height: 0%;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Alef MultiGndr';
+
+    background-color: #F0EBF4;
+}
+
+@font-face {
+    font-family: 'gadi-almog-regular-aaa';
+    src: url(../fonts/gadi-almog-regular-aaa.otf) format('opentype');
+}
+
+h1{
+    font-size:50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#page-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-height: 0%;
+    min-width: 0%;
+}
+
+#content {
+    position: absolute;
+    float: right;
+    top: 250px;
+}
+
+#not-allowed {
+    cursor: not-allowed;
+}
+
+footer {
+    position: absolute;
+    top: 2000px;
+    width: 100%;
+    height: 349px;
+    background: #A0C2D1;
+}
+
+a:focus {
+    border-color:black;
+    border-bottom-width:1px;
+}
+
+/*contactUs form*/
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*siteMap*/
+
+#siteMap a{
+    display:block;
+}

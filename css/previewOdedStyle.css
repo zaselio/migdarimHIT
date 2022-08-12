@@ -1,0 +1,59 @@
+﻿@font-face {
+    font-family: 'gadi-almog-regular-aaa';
+    src: url(../fonts/gadi-almog-regular-aaa.otf) format('opentype');
+}
+
+header {
+    position: relative;
+    right: 250px;
+    width: 75%
+}
+
+.oded {
+    position: absolute;
+    width: 232px;
+    height: 250px;
+    top: 0px;
+    right: -250px;
+}
+
+/*story*/
+
+.gadiAlmog {
+    font-family: gadi-almog-regular-aaa;
+}
+
+.endQuote {
+    position: absolute;
+    top: 700px;
+    right: 915px;
+}
+
+/*button*/
+
+.buttonOne {
+    position: absolute;
+    top: 850px;
+    right: 1050px;
+}
+
+.buttonTwo {
+    position: absolute;
+    top: 950px;
+    right: 1050px;
+}
+
+
+.divButtonOne a {
+    position: absolute;
+    top: 880px;
+    right: 1120px;
+    z-index: 1;
+}
+
+.divButtonTwo a {
+    position: absolute;
+    top: 980px;
+    right: 1110px;
+    z-index: 1;
+}
